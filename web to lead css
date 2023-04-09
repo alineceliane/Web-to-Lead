@@ -1,0 +1,59 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(38, 50, 59); */
+    background-image: url(webtoleadf.png);
+   
+}
+#web{
+    width: 100%;
+    display: flex;
+    /* box-shadow: 0px 0px 7px rgb(53, 52, 52); */
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center; 
+    border-radius: 10px; 
+    /* background-color: aqua; */
+    width: 500px;
+     background:rgba(0, 0, 0, 0.3);  
+    box-shadow: 2px 2px 3px black;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Roses are FF0000', sans-serif;
+}
+input[type=submit] {
+    color: #ffffff;
+    width: 100%;
+    background-color:#216efff5;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Roses are FF0000', sans-serif;
+}
+  input[type=submit]:hover {
+    background-color:#0059fff5;
+    box-shadow: 0px 0px 7px rgb(202, 202, 202);
+}
+#name{
+    width: 450px;
+   
+}
+h1{
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px 2px 2px rgb(255, 255, 252);
+    background:rgba(0, 0, 0, 0.2) 
+}
